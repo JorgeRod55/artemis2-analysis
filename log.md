@@ -12,3 +12,10 @@
 - Pendiente: comprobar si SPICE está publicado; iPhone sin archivar.
 - Mañana: descargar de la página del Geosciences Node el CSV HOBO y el OTR.
 - PENDIENTE antes del primer push: cambiar user.email al correo noreply de GitHub y reescribir el historial.
+- readme.txt del bundle mission leído: sin novedades. CSV HOBO son datos crudos (raw), sin calibrar ni limpiar.
+- Descargados a data/: 2 CSV HOBO (hobo1104, hobo1105; ~1,6 MB cada uno) y OTR JSON (59 KB).
+- Rango en nombres de archivo: día 086 a 111 (27-mar a 21-abr). Comprobar contra las fechas internas.
+- OTR: 39 entradas (30 observación, 9 logística), 10 flags STM; significado de cada STM pendiente de buscar en el Preliminary Report/OSDMP.
+- HOBO: 2 loggers, sin huecos ni nulos; se comportan distinto en vuelo y tras amerizaje.
+- Hora HOBO validada: CDT = UTC-5, coherente con el nombre de archivo (el día de inicio del nombre está desfasado en 1).
+- Notebook 01_inventario probado.
