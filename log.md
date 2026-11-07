@@ -20,4 +20,4 @@
 - Hora HOBO validada: CDT = UTC-5, coherente con el nombre de archivo (el día de inicio del nombre está desfasado en 1).
 - Notebook 01_inventario probado.
 - Fig01 revisada: etiquetas ajustadas para lectura en móvil (v2).
-- Preguntas abiertas: ubicación de cada HOBO; causa de las excursiones del 1105 tras el amerizaje.
+- Preguntas abiertas: por qué el locker D era más frío que el E; causa de las excursiones del 1105 los días 15-16 de abril. La ubicación de cada HOBO figura en la guía (sec. 3.4).
