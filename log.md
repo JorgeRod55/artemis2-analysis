@@ -22,3 +22,5 @@
 - Fig01 revisada: etiquetas ajustadas para lectura en móvil (v2).
 - Preguntas abiertas: por qué el locker D era más frío que el E; causa de las excursiones del 1105 los días 15-16 de abril. La ubicación de cada HOBO figura en la guía (sec. 3.4).
 - Guía sec. 3.4: HOBO 1104 en locker E toda la misión; 1105 en locker D hasta el 9-abr (18:00-21:00 UTC), luego locker F. El salto del 1105 empieza a las 18:42 UTC.
+- 2026-11-18: publicado el post ES de Artemis II en LinkedIn. Enlace: https://lnkd.in/p/dkGFfr4h
+- 2026-11-19: publicado el post ES de Artemis II en LinkedIn. Enlace: https://lnkd.in/p/dRwvtnPT
