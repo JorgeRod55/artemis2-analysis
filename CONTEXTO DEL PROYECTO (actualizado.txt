@@ -1,0 +1,42 @@
+CONTEXTO DEL PROYECTO (actualizado en noviembre de 2026, tras publicar los dos posts de Artemis II)
+
+PERFIL
+Jorge Rodríguez, Ingeniero Aeronáutico, +12 años de experiencia, Madrid. Trabajó en el Science Data Center de la ESA (E-USOC/UPM, 2024-2025) gestionando datos científicos de la ISS. Formación en Data Science y ML con Python. Python nivel básico-intermedio. Busca empleo en aeroespacial/defensa en Madrid (GMV, Indra, ESA, ALTEN, Capgemini, Telespazio, SENER).
+
+PROYECTO
+Analizar datos públicos de Artemis II (NASA PDS, publicados el 7-oct-2026) para generar portfolio, visibilidad en LinkedIn y base de una futura empresa de ingeniería de sistemas espacial (consultoría -> metodología -> automatización -> software -> plataforma; MBSE/Capella). La empresa es proyecto paralelo y de baja prioridad mientras busca empleo; en LinkedIn solo una línea discreta.
+
+RESTRICCIONES
+1 hora diaria. Herramientas: Python, pandas, matplotlib, Colab. Su PC bloquea pandas (Windows Smart App Control): se trabaja en Google Colab. Git y VS Code instalados en local.
+
+PRIVACIDAD (decisiones tomadas)
+- Usuario de GitHub: JorgeRod55. Nombre en Git: Jorge Rodríguez. Correo de los commits: noreply de GitHub (historial reescrito antes del primer push).
+- No dar más datos personales de los necesarios en perfiles públicos.
+
+ESTADO
+- Repo público: github.com/JorgeRod55/artemis2-analysis (README con botón "Abrir en Colab", notebook 01_inventario, fig01, log.md).
+- Posts de LinkedIn publicados: ES (18-nov-2026, enlace: https://lnkd.in/p/dkGFfr4h) y EN (publicado después; apuntar fecha y enlace en log.md). Textos finales en documentos editables del chat "Proyecto Artemis II".
+- Datos usados: 2 CSV HOBO (hobo1104/1105) y OTR JSON del bundle artemis2_mission (DOI 10.17189/36fx-pd80). Guía: DOI 10.17189/dtpt-2857.
+- Hallazgos: HOBO 1104 en locker E toda la misión; 1105 en locker D hasta el 9-abr (18:00-21:00 UTC), luego F (guía sec. 3.4). Salto del 1105 desde 18:42 UTC. Diferencia 1104-1105: +1,8 °C antes del traslado, -0,8 °C después. Humedad pasa de 20-25 % a 50-60 % tras el amerizaje. Lanzamiento 1-abr 22:35 UTC; amerizaje 11-abr 00:07 UTC.
+- Sin explicar: por qué D era más frío que E; excursiones del 1105 los días 15-16 abril.
+- OTR: 39 entradas (30 observación, 9 logística), flags stm1 a stm10; significado de cada STM sin confirmar.
+
+PENDIENTE
+- Protocolo de verificación de descargas: el .md5 del bundle mission está descargado en data/ pero sin abrir. Primer paso: ver su formato y comprobar los 3 archivos con Python en Colab. Posible post: "cómo comprobé que mis descargas eran idénticas a las de NASA".
+- Buscar en OSDMP / Preliminary Lunar Science Report el significado de los flags STM (trazabilidad: OTR -> observación -> imagen).
+- Comprobar si SPICE está publicado; las imágenes de iPhone aparecen como archivadas y no archivadas en distintas partes de la guía (no afirmar nada).
+- Perfiles: LinkedIn (titular, extracto, destacados, ES/EN) y README de perfil en GitHub.
+- Revisar estadísticas de los dos posts a los pocos días y responder comentarios.
+- Opcional: ExoClock Unlocked (astronomía; 300 EUR; plazo 15-dic-2026). Valoración: no prioritario; solo aplicar si responden a horas totales, tipo de autoría y entregables.
+
+CHATS DEL PROYECTO (ya existen)
+Proyecto Artemis II (análisis y posts), Perfiles de LinkedIn y GitHub, CV y LinkedIn para empresas, Búsqueda de empleo ideal, News sector espacial, Plan para crear una empresa / Unicornio, Plan de idiomas. Cada chat nuevo no recuerda a los demás: solo ve los archivos del proyecto.
+
+DECISIONES FIJAS
+Consultoría es fase 1; 5 fases; Frente 1 antes que Frente 2; nicho NewSpace + Defensa; Capella/MBSE central; "somos nuestro primer caso de éxito".
+
+REPARTO SEMANAL (7 h)
+3 h análisis y redacción, 2 h búsqueda de empleo, 1 h perfiles y publicación, 1 h empresa y radar del sector.
+
+REGLAS PARA EL ASISTENTE
+Explicar cada paso en una frase. Pasos cortos con comandos exactos. No afirmar datos sin verificar en la fuente. Decir "no lo sé" cuando no se sepa. Tono de ingeniero, humano, español e inglés. Comprobar la fecha actual antes de recomendar días de publicación. Errores previos corregidos: se dijo que la guía no indicaba la ubicación de los sensores (sí la indica, sec. 3.4); se confundió el DOI de la guía con la tabla 1 (el de la guía está en su cita recomendada); se dieron fechas de hoy equivocadas al recomendar el día de publicación.

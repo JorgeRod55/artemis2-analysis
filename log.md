@@ -24,3 +24,8 @@
 - Guía sec. 3.4: HOBO 1104 en locker E toda la misión; 1105 en locker D hasta el 9-abr (18:00-21:00 UTC), luego locker F. El salto del 1105 empieza a las 18:42 UTC.
 - 2026-11-18: publicado el post ES de Artemis II en LinkedIn. Enlace: https://lnkd.in/p/dkGFfr4h
 - 2026-11-19: publicado el post ES de Artemis II en LinkedIn. Enlace: https://lnkd.in/p/dRwvtnPT
+
+## 2026-11-24 (Día 3)
+- [fecha]: verificación MD5 en Colab (02_verificacion.ipynb): hobo1104 CSV, hobo1105 CSV y OTR JSON coinciden con el manifiesto del bundle artemis2_mission (3 de 25 archivos comprobados, los usados en el análisis).
+- Limitación: MD5 detecta corrupción accidental, no manipulación (el manifiesto viene del mismo servidor).
+- Siguiente: contar archivos contra los inventarios de las colecciones; buscar el significado de los STM en el OSDMP.
